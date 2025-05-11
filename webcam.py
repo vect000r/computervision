@@ -37,6 +37,6 @@ while True:
     if cv.waitKey(1) & 0xFF == ord('q'):
         break
 
-    # Release the video capture object and close all OpenCV windows
-    video_capture.release()
-    cv.destroyAllWindows()
+# Release the video capture object and close all OpenCV windows
+video_capture.release()
+cv.destroyAllWindows()
